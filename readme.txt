@@ -1,0 +1,28 @@
+(Software written and tested using Octave 3.8.1)
+
+- Script file: neural_net.m
+Here you can modify the structure of the network, input data, number of epochs,
+mini-batch size and the learning rate.
+
+- loadMNISTImages.m, loadMNISTLabels.m
+Helper functions used to load the data
+Downloaded from  http://ufldl.stanford.edu/wiki/resources/mnistHelper.zip
+
+- network.m:
+Used to define the structure of the network and to initialize weights and biases
+
+- SGD.m:
+Stochastic gradient descent algorithm.
+Used to train and to evaluate the network.
+
+- update_mini_batch.m:
+Function to update a single mini-batch. Called by SGD.m
+
+- backpropagation.m:
+Backpropagation algorithm. Calles by update_mini_batch.m
+
+- evaluate.m:
+Function to evaluate the algorithm after the training. Called by SGD.m
+
+- feedforward.m:
+Function to compute the output of the network. Called by evaluate.m
