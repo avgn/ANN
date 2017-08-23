@@ -21,7 +21,7 @@ Used to train and to evaluate the network.
 Function to update a single mini-batch. Called by SGD.m
 
 - backpropagation.m:
-Backpropagation algorithm. Calles by update_mini_batch.m
+Backpropagation algorithm. Called by update_mini_batch.m
 
 - evaluate.m:
 Function to evaluate the algorithm after the training. Called by SGD.m
